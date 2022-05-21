@@ -1,22 +1,353 @@
+/*PAGINA------------------------------------------------------------------------------------------------------------------------*/
+#Pagina{
+    top: 15px;
+    position: absolute !important;    
+    background-size: 1240px 3158px;
+    border-color: black;
+    min-width: 1240px;
+    min-height: 3158px;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+    border: 1px;
+}
+
+#Conteudo{
+    top: 150px;
+    left: 0px;
+    position: absolute !important;    
+    background-size: 1240px 2900px;
+    border-color: black;
+    min-width: 1240px;
+    min-height: 3000px;
+
+    /*Borda*/
+    /* box-shadow: inset 0 0 5px rgb(0, 0, 0);
+    border: 1px; */
+}
+
+.Download{
+    top: 200px;
+    left: 1050px;
+    z-index: 1;
+    position: absolute;
+}
+
+/*INCONES------------------------------------------------------------------------------------------------------------------------*/
+.icons{
+    position: absolute;    
+
+}
+
+#gmail{
+    background-size: 12px 12px;    
+    width: 50px;
+    height: 50px;
+    top: -20px;
+}
+
+#linkedin{
+    background-size: 12px 12px;    
+    width: 37px;
+    height: 37px; 
+    top: 36px;
+    left: 6px !important;
+}
+
+#github{
+    background-size: 12px 12px;    
+    width: 37px;
+    height: 37px; 
+    top: 105px;
+    left: 8px !important;
+}
+
+/*FONTES------------------------------------------------------------------------------------------------------------------------*/
+.fontesTitulos{
+    font-family: Arial;
+    color: rgb(111, 110, 110);
+    font-size: large;
+    position: relative;
+    font-size: 1950px;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.fontesConteudo{
+    font-family:Verdana;
+    color: rgb(136, 133, 133);
+    font-size: 10px;
+    position: relative;
+    font-weight: 535;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/*RETANGLE------------------------------------------------------------------------------------------------------------------------*/
+.Retangle{
+    height: 10px;
+    width: 125px;
+    background-color: #555;
+    position: relative;
+}
+
+/*CABEÇALLHO--------------------------------------------------------------------------------------------------------------------*/
+#cabecalho{
+    width: 1240px;
+    height: 250px;
+    top: 0px;
+    position: absolute !important; 
+
+    /*Borda*/
+    /*border: 0.5px;
+    border-style:dashed; */
+}
+
 #FundoCapa {        
-    width: 1600px;
-    height: 200px;
-    top: 5%;
-    max-height: 100%; 
+    width: 1240px;
+    height: 154px;
+    top: 0px;
+    max-height: 1000px; 
     background-image: url(D:/Finanças/GitOnlineCurriculum/GilbertoShimokawaFalcao.github.io/Curriculum_resources/Imagens/fundo.png);    
     background-repeat: no-repeat;
-    position: absolute;    
-    /* background-size: 1500px     */
-    background-size: 1800px 200px;
+    position: absolute !important;    
+    filter: contrast(1.2);
+    image-rendering:pixelated;
+    background-size: 1240px 154px;
+}
+
+#FotoPerfil {
+    width: 220px;
+    height: 220px;
+    top: 15px;
+    left: 35px;
+    max-height: 1000px; 
+    background-image: url(D:/Finanças/GitOnlineCurriculum/GilbertoShimokawaFalcao.github.io/Curriculum_resources/Imagens/perfil.jpg);
+    background-repeat: no-repeat;
+    position: relative !important;       
+    background-position-y:-70px;
+    background-size: 220px 390px;
+    border-radius: 500px;
+    border-color:steelblue;
+    border-style:groove;
 }
 
 #nome{
-    font-size: 60px;
+    font-size: 50px;
+    font-weight:1000;
+    color: aliceblue;
+    font-family:'Tahoma';
+    font-size-adjust: initial;
+    top: 5px;
+    left: 300px;
+    position: relative;
+}
+
+#titulo{
+    font-size: 23px;
     font-weight: 1000;
     color: aliceblue;
     font-family:'Tahoma';
     font-size-adjust: initial;
-    top: 10%;
-    left: 35%;
+    top: 0px;
+    left: 500px;
     position: relative;
+}
+
+#dataUpdate{
+    font-size: 17px;
+    font-weight: 1000;
+    color: aliceblue;
+    font-family:'Tahoma';
+    font-size-adjust: initial;
+    top: 35px;
+    left: 1040px;
+    position: relative;
+}
+
+/*CONTEÚDO---------------------------------------------------------------------------------------------------------------------*/
+
+/*Objetivo---------------------*/
+#Objetivo{
+    position: absolute !important;
+    background-size: 500px 350px !important;
+    border-color:rgb(141, 138, 138);
+    top: 0px;
+    left: 270px;    
+    min-width: 950px !important;
+    min-height: 50px !important;
+    
+    /*Borda*/
+    /* border: 0.5px;
+    border-style:dashed; */
+}
+
+#TObjetivo {
+    top:5px !important;
+    position: absolute;
+}
+
+#CObjetivo{
+    top:10px !important;
+    left: 250px;
+    position: absolute;
+}
+
+/*Perfil-----------------------------------------------------------------------------------------------------------------------*/
+#Perfil{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 92px;
+    left: 7px;    
+    min-width: 600px !important;
+    min-height: 250px !important;
+
+    /*Borda*/
+    /*border: 0.5px;
+    border-style:dashed; */
+}
+
+#TPerfil{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CPerfil{
+    position: absolute;
+}
+
+/*Experiencia-----------------------------------------------------------------------------------------------------------------------*/
+#Experiencia{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 92px;
+    left: 620px;    
+    min-width: 600px !important;    
+    min-height: 800px !important;
+
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TExperiencia{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CExperiencia{
+    position: absolute;
+}
+
+/*Formações-----------------------------------------------------------------------------------------------------------------------*/
+#Formacoes{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 500px;
+    left: 7px;    
+    min-width: 600px !important;
+    min-height: 140px !important;
+
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TFormacoes{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CFormacoes{
+    position: absolute;
+}
+
+/*Qualificações-----------------------------------------------------------------------------------------------------------------------*/
+#Qualificacoes{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 740px;
+    left: 7px;    
+    min-width: 600px !important;
+    min-height: 310px !important;
+    
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TQualificacoes{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CQualificacoes{
+    position: absolute;
+}
+
+/*Contato-----------------------------------------------------------------------------------------------------------------------*/
+#Contato{    
+    position: absolute !important;
+    background-size: 40px 25px !important;
+    border-color:rgb(141, 138, 138);
+    top: 1150px;
+    left: 7px;    
+    min-width: 300px !important;
+    min-height: 200px !important;
+    
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TContato{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CContato{
+    position: absolute;
+}
+
+/*Adicionais-----------------------------------------------------------------------------------------------------------------------*/
+#Adicionais{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 1450px;
+    left: 7px;    
+    min-width: 1200px !important;
+    min-height: 310px !important;
+    
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TAdicionais{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CAdicionais{
+    position: absolute;
+}
+
+/*Cursos-----------------------------------------------------------------------------------------------------------------------*/
+#Cursos{    
+    position: absolute !important;
+    background-size: 50px 35px !important;
+    border-color:rgb(141, 138, 138);
+    top: 1800px;
+    left: 7px;    
+    min-width: 1200px !important;
+    min-height: 310px !important;
+    
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TCursos{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CCursos{
+    position: absolute;
 }

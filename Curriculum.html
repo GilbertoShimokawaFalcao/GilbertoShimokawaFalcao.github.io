@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    Teste
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+    <script type="text/javascript" src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\download.js"></script>
     <link rel="stylesheet" type="text/css" href="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Propiedades.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +10,205 @@
     <title>Document</title>
 </head>
 <body>
-
+<div id ="Pagina">
+    
+    <div class="Download" onclick='javascript:generatePDF()'>    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD<br/>
+        <img src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Imagens\arrow-arrow-down.gif" height="70" width="90">
+    </div>
+    <!--CABEÇALHO-------------------------------------------------------------------------------------------------------------->
     <div id="cabecalho">
         <div id="FundoCapa">
             <div id="nome">
                 GILBERTO SHIMOKAWA FALCÃO
-            </div>            
+            </div>    
+            <div id="titulo">
+                Analista & Desenvolvedor Full Stack
+            </div>               
+            <div id="dataUpdate">
+                UPDATE: 30/03/2022
+            </div>               
+        </div>        
+        <div id="FotoPerfil"></div>
+    </div>    
+
+    <div id="Conteudo">
+        <!--OBJETIVO-------------------------------------------------------------------------------------------------------------->
+        <div id="Objetivo">
+        <div id="TObjetivo" class="fontesTitulos">OBJETIVO:</div>
+        <div id="CObjetivo" class="fontesConteudo">Atuar como Analista e desenvolvedor de Sistemas Full Stack.</div>
         </div>
-        <div id="FotoPerfil">
-            <img src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Imagens\perfil.jpg">
+
+        <!--PERFIL-------------------------------------------------------------------------------------------------------------->
+        <div id="Perfil">    
+            <div id="TPerfil" class="fontesTitulos">PERFIL:</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CPerfil" class="fontesConteudo">
+                Profissional com mais de 4 anos de experiência em TI, participando com desenvolvimento de projetos para Bancos, 
+                com foco na área financeira, como Itaú unibanco e Rede Card, desenvolvendo sistemas de controle de qualidade, 
+                auditorias fiscais, automatização de processos, API's, Área de Câmbio, Manutenção e desenvolvimento de softwares 
+                no setor de crédito imobiliário, participando também de projetos que envolveram BigData e Inteligência artificial.
+            </div>
+        </div>   
+        
+        <!--EXPERIENCIA--------------------------------------------------------------------------------------------------------->
+        <div id="Experiencia">    
+            <div id="TExperiencia" class="fontesTitulos">EXPERIENCIA:</div>
+            <div class="Retangle"></div>
+            <br/>
+            <!--2021-ATUAL------------------------------------------------------------>        
+            <div id="CExperiencia" class="fontesConteudo">
+                <b>11/2021 – Atualmente:</b><br/>
+                <a href="https://www.wipro.com/pt-BR/"><b>Wipro do Brasil</b></a> – Multinacional Indiana. (Itaú Unibanco – Unimob)<br/>
+                <b>Cargo:</b> Analista e desenvolvedor de sistemas Pleno (Full Stack).<br/>
+                <b>Atuação:</b> Desenvolvimento, suporte, arquitetura e manutenção de projetos no setor de crédito imobiliário. <br/>
+                <b>Linguagens e Ferramentas utilizadas:</b> C#, SQL, HTML, JavaScript, VBA,HTML 5, CSS, Jquery, GitBash, JIRA, MIRO, Confluence, Bisual Studio, Excel, LinqToSQL.
+                <br/><br/><br/>        
+            <!--2019-2021------------------------------------------------------------>        
+                <b>01/2019 – 11/2021</b><br/>
+                <a href="https://www.brq.com/"><b>BRQ Digital Solutions </b></a>– Consultoria - (Itaú Unibanco – DISO / Rede Card / Itaú Unibanco – Câmbio CTO) <br/>
+                <b>Cargos:</b> Técnico de sistemas Júnior / Programador Júnior<br/>
+                <b>Atuação:</b> Durante atuação dentro da casa tive oportunidade de trabalhar com a Equipe de BIG DATA e MACHINE LEARNING, 
+                Participando de projetos para apoiar internamente a empresa em sua auto gestão, utilizando raspagem de conteúdos de 
+                interesse, Leitura OCR e participando de projetos de Machine Learning de Clusterização. Nesse intervalo, foram ofertadas, 
+                patrocinadas e reconhecidas utilizações de ferramentas da Google Cloud Platform (Patrocinado pela Google) 
+                através do Coursera para conquistas das certificações de interesse para Google em parceria com a BRQ. Também, 
+                ferramenta de automatização de processos, como a UIPATH.<br/>            
+                <b>Linguagens e Ferramentas utilizadas:</b> Python, Google Cloud Platform, AWS, SQL Server, C#, 
+                Visual Studio, MySQL, VBA, RAZOR, JavaScript, HTML 5, CSS, Jquery, Diagrama DER, UML, GitBash, Excel, JIRA, 
+                Confluence, EntityFramework, Jupyter, Angular.
+                <br/><br/><br/>
+            <!--2019-2021------------------------------------------------------------>        
+            <b>02/2018 a 07/2018</b><br/>
+            <a href="https://fatecipiranga.edu.br/"><b>FATEC IPIRANGA </b></a> – Faculdade de tecnologia do estado de São Paulo Unidade Ipiranga. <br/>
+            <b>Cargo:</b> Estágio<br/>
+            <b>Atuação:</b> Desenvolvimento full stack da parte do motor de gerenciamento da nova página da FATEC Ipiranga.<br/>
+            <b>Linguagens e Ferramentas utilizadas:</b> MySQL, HTML, HTML5, JavaScript, PHP, CSS, Wamp Server, Brackets, FTP Core.<br/>
+            </div>
+        </div>    
+
+        <!--FORMAÇÕES-------------------------------------------------------------------------------------------------------------->
+        <div id="Formacoes">    
+            <div id="TFormacoes" class="fontesTitulos">FORMAÇÕES</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CFormacoes" class="fontesConteudo">
+                <b>2016 - 2019: FATEC:</b> Superior em análise e desenvolvimento de sistemas.<br/>
+                <b>2005 – 2007: SENAI:</b> Técnico em eletroeletrônica.
+            </div>
+        </div>  
+
+        <!--FORMAÇÕES-------------------------------------------------------------------------------------------------------------->
+        <div id="Qualificacoes">    
+            <div id="TQualificacoes" class="fontesTitulos">QUALIFICAÇÕES</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CQualificacoes" class="fontesConteudo">
+                <b>★★★★★</b> C# .NET Core / LINQ <br/>
+                <b>★★★★★</b> Lambda Expression /EFrameworkCore <br/>
+                <b>★★★★★</b> SQL / PL SQL / OR SQL / Microsoft/ Oracle<br/>
+                <b>★★★★</b> NoSQL / Neo4J (Cypher) / MongoDB<br/>
+                <b>★★★★</b> RAZOR / VBA / JavaScript<br/>
+                <b>★★★</b> Vue /Jquery /HTML5 /PHP /CSS / GitHub<br/>
+                <b>★★★</b> Assembler 8051 / CLP (Ladder) <br/>
+                <b>★★★</b> UML / DER / MER / Design Patterns GOF<br/>
+                <b>★★</b> Shell Script / Python<br/>
+                <b>★</b> Angular / Node / Java<br/>     
+            </div>
+        </div>
+        
+        <!--ADICIONAIS-------------------------------------------------------------------------------------------------------------->
+        <div id="Adicionais">    
+            <div id="TAdicionais" class="fontesTitulos">ADICIONAIS INFORMAÇÕES</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CAdicionais" class="fontesConteudo">    
+                <ul>        
+                    <li>CNH B</li>
+                    <li>Inglês Técnico / Intermediário.</li>
+                    <li>Sem vícios</li>
+                    <li>Resido a duas quadras do metrô.</li> 
+                    <li>Conhecimentos prévios com BigData.</li>
+                    <li>Apaixonado por inteligência Artificial. (Desenvolvendo a própria IA Caixa branca e algoritmos própios).</li>
+                    <li>Projetos para a comunidade github FakeDBCSV - Banco de dados para quem não quer um banco de dados</li>
+                    <li>Produtor musical (Eletrônica) nas horas vagas Gilbert Van der Eyden</li>
+                </ul>
+            </div>
+        </div>      
+
+        <!--CONTATO-------------------------------------------------------------------------------------------------------------->
+        <div id="Contato">    
+            <div id="TContato" class="fontesTitulos">CONTATO</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CContato" class="fontesConteudo">                            
+                <img src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Icons\gmail_icon_137543.png" class="icons" id="gmail">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:contato.gilberto.shk.falcao@gmail.com">contato.gilberto.shk.falcao@gmail.com</a><br/><br/>
+                <img src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Icons\linkedin.png" class="icons" id="linkedin">                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/gilberto-shimokawa-falcão-253427100/">https://www.linkedin.com/in/gilberto-shimokawa-falcão-253427100/</a><br/><br/>
+                <img src="D:\Finanças\GitOnlineCurriculum\GilbertoShimokawaFalcao.github.io\Curriculum_resources\Icons\github.png" class="icons" id="github">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/GilbertoShimokawaFalcao">https://github.com/GilbertoShimokawaFalcao</a>
+            </div>
+        </div>      
+
+        <!--CURSOS-------------------------------------------------------------------------------------------------------------->
+        <div id="Cursos">    
+            <div id="TCursos" class="fontesTitulos">CURSOS</div>
+            <div class="Retangle"></div>
+            <br/>
+            <div id="CCursos" class="fontesConteudo">
+                <b>IGTI</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/33%20-%20BootCamp%20Cientista%20de%20dados/Gilberto%20Shimokawa%20FalcaoBootcamp%20Cientista%20de%20Dados%5B708%5D.pdf">Certificado de conclusão BootCamp de Cientista de dados</a></li>
+                </ul> 
+                <b>UIPath</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/23-UIPath_RPA/01_Foundation%20Training%202018.3.pdf">Foundation Training on RPA</a></li>
+                </ul> 
+                <b>Coursera & Google</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/22-Google%20Cloud%20Platform/01_GoogleCloudPlatformBigDataAndMachineLearningFundamentals_'Coursera%20KNVBAMQEGBBN'.pdf">Google Cloud Platform - Big Data And Machine Learning Fundamentals</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/22-Google%20Cloud%20Platform/02_Leveraging%20Unstructured%20Data%20with%20Cloud.pdf">Google Cloud Platform - Leveraging Unstructured Data with Cloud</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/22-Google%20Cloud%20Platform/03_Serverless%20Data%20Analysis%20with%20Google%20BigQuery%20and%20Cloud%20Dataflow.pdf">Google Cloud Platform - Serverless Data Analysis with Google BigQuery and Cloud Dataflow</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/22-Google%20Cloud%20Platform/04_Serverless%20Machine%20Learning%20with%20Tensorflow%20on%20Google%20Cloud%20Platform.pdf">Google Cloud Platform - Serverless Machine Learning with Tensorflow on Google Cloud Platform</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/22-Google%20Cloud%20Platform/05_Building%20Resilient%20Streaming%20Systems%20on%20Google%20Cloud%20Platform.pdf">Google Cloud Platform - Building Resilient Streaming Systems on GCP</a></li>
+                </ul> 
+                <b>CertiProf</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/24-Scrum/Certificate_scrum.pdf">Scrum Foundation Professional Certificate (SFPC)</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/21-Devops/Certificate.pdf">Devops Essentials Professional Certificate (DEPC)</a></li>
+                </ul> 
+                <b>FATEC IPIRANGA</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/10-Montagem%2C%20configura%C3%A7%C3%A3o%20e%20Manuten%C3%A7%C3%A3o%20de%20Microcomputadores/10-Montagem%2C%20configura%C3%A7%C3%A3o%20e%20Manuten%C3%A7%C3%A3o%20de%20Microcomputadores.jpg">Montagem, configuração e Manutenção de microcomputadores</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/11-Mantenedor%20de%20Sistemas%20Eletroeletr%C3%B4nicos/11-Mantenedor%20de%20Sistamas%20Eletroeletr%C3%B4nicos.jpg">Mantenedor de sistemas eletrônicos</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/12-Mantenedor%2C%20Instalador%20e%20Reparador%20de%20Sistemas%20Eletroeletr%C3%B4nicos/12-Mantenedor%2C%20Instalador%20e%20Reparador%20de%20Sistemas%20Eletroeletr%C3%B4nicos.jpg">Mantenedor, instalador e reparador de Sistemas Eletroeletrônico</a></li>
+                </ul> 
+                <b>IPEC</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/03-Inform%C3%A1tica%20B%C3%A1sica/3-Inform%C3%A1tica%20B%C3%A1sica.pdf">Informática básica</a></li>
+                </ul> 
+                <b>UDEMY</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/38%20-%20Aprendizado%20por%20refor%C3%A7o%20com%20Deep%20Q-%20Learning/UC-7ee1af28-19ed-4c12-a217-e558fa10149c.pdf">Inteligência Artificial (Deep Q Learning)</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/37%20-%20Inteligencia%20artificial%20-%20ARS/UC-92df056b-64ce-4bc6-b79f-b2a7911c6acd.pdf">Inteligência Artificial (ARS)</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/35%20-%20Entity%20Framework%20Core%20%2B%20Asp.NET%20Core%20Web%20API%20%2B%20SQL%20Server/UC-2d64e369-643e-43dd-b4cc-7b4dcf8599f3.pdf">Entity Framework Core + Asp.NET Core Web API + SQL Server</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/34%20-%20WCF%20Criando%20servi%C3%A7os%20em%20.NET%20Framework/UC-f87fac36-98fb-4ac8-8f47-75b362156753.pdf">WCF Criando serviços em .NET FrameWork</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/32%20-%20Full%20Stack%20com%20Vue%20Js%20%2B%20Asp.Net%20Core%20Web%20API%20%2B%20EF%20Core/UC-e0948d15-d723-4499-b9cb-0b92d9641013.pdf">Full Stack com Vue Js + AspNet Core Web API + EF Core</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/30%20-%20Curso%20completo%20de%20Jquery%20%2B%2010%20Projetos/UC-2736d40f-a666-43d9-a5d0-f489172c5f45.pdf">Curso completo de Jquery + 10 Projetos</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/29%20-%20Dominando%20Linq%20e%20Lambda%20Expressions/UC-378cb117-3505-4939-8bd6-778ee8cfcde3.pdf">Dominando Linq e expressão Lambda C#</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/27%20-%20Padr%C3%B5es%20de%20Projeto%20Gof%20(Design%20Patterns)/UC-9ea19188-ab7d-4a4b-8a89-737632607519.pdf">Design Pattern com C# - Desenvolvimento avançado (GOF)</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/25-C%23%20Programa%C3%A7%C3%A3o%20Orientada%20a%20objetos%20%2B%20Projetos%20em%20Dot%20Net%20Core/UC-3f202919-f27b-4b68-93ec-db9f74294011.pdf">C# Programação Orientada a objetos + Projetos em .Net Core</a></li>
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/blob/main/Diplomas%20%26%20Certificados/39%20-%20Dominado%20Git%20e%20GitHub%20do%20Iniciante%20ao%20expert/UC-0e48e6f4-a94e-4214-bdf8-70df97aaff50.pdf">Dominado Git e GitHub do Iniciante ao expert</a></li>
+                </ul>   
+                <b>MAIS</b>
+                <ul>        
+                    <li><a href="https://github.com/GilbertoShimokawaFalcao/GitCurriculum/tree/main/Diplomas%20%26%20Certificados">Acessar mais</a></li>
+                </ul>           
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>
