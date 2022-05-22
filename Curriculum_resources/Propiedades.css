@@ -1,13 +1,35 @@
+/*RETURN BUTTON------------------------------------------------------------------------------------------------------------------------*/
+#return{
+    position: relative !important;   
+    top: 10px;
+    left: 1270px;
+
+    background-size: 20px 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+#sugestion{
+    position: relative !important;   
+    top: 10px;
+    left: 1270px;
+
+    background-size: 20px 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
 /*PAGINA------------------------------------------------------------------------------------------------------------------------*/
-#Pagina{
-    top: 15px;
+#Pagina{    
+    top: -1px;
+    left: -1px;
     position: absolute !important;    
-    background-size: 1240px 3158px;
+    background-size: 1240px 3358px;
     border-color: black;
     min-width: 1240px;
-    min-height: 3158px;
-    box-shadow: inset 0 0 5px rgb(0, 0, 0);
-    border: 1px;
+    min-height: 3358px;
+    box-shadow: inset 0 0 3px rgb(0, 0, 0);    
+    z-index: 10;
 }
 
 #Conteudo{
@@ -27,14 +49,13 @@
 .Download{
     top: 200px;
     left: 1050px;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
 }
 
 /*INCONES------------------------------------------------------------------------------------------------------------------------*/
 .icons{
     position: absolute;    
-
 }
 
 #gmail{
@@ -73,7 +94,7 @@
 
 .fontesConteudo{
     font-family:Verdana;
-    color: rgb(136, 133, 133);
+    color: rgb(109, 108, 108);
     font-size: 10px;
     position: relative;
     font-weight: 535;
@@ -159,7 +180,7 @@
     font-family:'Tahoma';
     font-size-adjust: initial;
     top: 35px;
-    left: 1040px;
+    left: 990px;
     position: relative;
 }
 
@@ -171,7 +192,7 @@
     background-size: 500px 350px !important;
     border-color:rgb(141, 138, 138);
     top: 0px;
-    left: 270px;    
+    left: 260px;    
     min-width: 950px !important;
     min-height: 50px !important;
     
@@ -186,8 +207,8 @@
 }
 
 #CObjetivo{
-    top:10px !important;
-    left: 250px;
+    top:12px !important;
+    left: 240px;
     position: absolute;
 }
 
@@ -217,15 +238,15 @@
 /*Experiencia-----------------------------------------------------------------------------------------------------------------------*/
 #Experiencia{    
     position: absolute !important;
-    background-size: 50px 35px !important;
+    background-size: 50px 80px !important;
     border-color:rgb(141, 138, 138);
     top: 92px;
-    left: 620px;    
-    min-width: 600px !important;    
-    min-height: 800px !important;
-
+    left: 615px;    
+    min-width: 560px !important;    
+    min-height: 1300px !important;
+    z-index: 1;
     /*Borda*/
-    /*border: 1px;
+    /* border: 1px;
     border-style:dashed; */
 }
 
@@ -234,7 +255,41 @@
 }
 
 #CExperiencia{
+    position: absolute;    
+}
+
+.commonjob{
     position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+#jobwipro{
+    background-size: 500px 400px;    
+    top:0px;
+    left: 10px;    
+    min-width: 600px;    
+    min-height: 600px;
+    background-image:url('D:/Finanças/GitOnlineCurriculum/GilbertoShimokawaFalcao.github.io/Curriculum_resources/Icons/Wipro.png');        
+}
+
+#jobbrq{    
+    background-size: 500px 400px;    
+    top:550px;
+    left: 10px;    
+    min-width: 600px;    
+    min-height: 600px;
+    background-image:url('D:/Finanças/GitOnlineCurriculum/GilbertoShimokawaFalcao.github.io/Curriculum_resources/Icons/brq.png');    
+}
+
+#jobfatec{    
+    background-size: 500px 400px;    
+    top:1050px;
+    left: 10px;    
+    min-width: 600px;    
+    min-height: 600px;
+    background-image:url('D:/Finanças/GitOnlineCurriculum/GilbertoShimokawaFalcao.github.io/Curriculum_resources/Icons/fatecip.png');    
 }
 
 /*Formações-----------------------------------------------------------------------------------------------------------------------*/
@@ -311,7 +366,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 1450px;
+    top: 1550px;
     left: 7px;    
     min-width: 1200px !important;
     min-height: 310px !important;
@@ -334,7 +389,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 1800px;
+    top: 1900px;
     left: 7px;    
     min-width: 1200px !important;
     min-height: 310px !important;
