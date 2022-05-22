@@ -135,7 +135,7 @@
     height: 154px;
     top: 0px;
     max-height: 1000px; 
-    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Imagens/fundo.png?raw=true);    
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.png?raw=true);    
     background-repeat: no-repeat;
     position: absolute !important;    
     filter: contrast(1.2);
@@ -149,7 +149,7 @@
     top: 15px;
     left: 35px;
     max-height: 1000px; 
-    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Imagens/perfil.jpg?raw=true);
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/perfil.jpg?raw=true);
     background-repeat: no-repeat;
     position: relative !important;       
     background-position-y:-70px;
@@ -279,7 +279,7 @@
     left: 10px;    
     min-width: 600px;    
     min-height: 600px;
-    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Icons/Wipro.png?raw=true);        
+    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/Wipro.png?raw=true);        
 }
 
 #jobbrq{    
@@ -288,7 +288,7 @@
     left: 10px;    
     min-width: 600px;    
     min-height: 600px;
-    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Icons/brq.png?raw=true);    
+    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/brq.png?raw=true);
 }
 
 #jobfatec{    
@@ -297,7 +297,7 @@
     left: 10px;    
     min-width: 600px;    
     min-height: 600px;
-    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Icons/fatecip.png?raw=true);    
+    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/fatecip.png?raw=true);    
 }
 
 /*Formações-----------------------------------------------------------------------------------------------------------------------*/
