@@ -372,9 +372,9 @@
 /*Projetos-----------------------------------------------------------------------------------------------------------------------*/
 #Projetos{    
     position: absolute !important;
-    background-size: 40px 25px !important;
+    background-size: 150px 150px !important;
     border-color:rgb(141, 138, 138);
-    top: 1550px;
+    top: 1530px;
     left: 7px;    
     min-width: 300px !important;
     min-height: 200px !important;
@@ -389,7 +389,7 @@
 }
 
 #CProjetos{
-    position: absolute;
+    position: relative;
 }
 
 /*Adicionais-----------------------------------------------------------------------------------------------------------------------*/
@@ -397,7 +397,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 1750px;
+    top: 1740px;
     left: 7px;    
     min-width: 1200px !important;
     min-height: 310px !important;
@@ -420,7 +420,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 2150px;
+    top: 2050px;
     left: 7px;    
     min-width: 1400px !important;
     min-height: 310px !important;
