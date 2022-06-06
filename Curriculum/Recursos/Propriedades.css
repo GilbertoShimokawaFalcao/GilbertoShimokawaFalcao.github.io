@@ -384,11 +384,11 @@
     border-style:dashed; */
 }
 
-#TContato{/*Titulo Perfil*/
+#TProjetos{/*Titulo Perfil*/
     position: relative;
 }
 
-#CContato{
+#CProjetos{
     position: absolute;
 }
 
@@ -420,7 +420,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 2050px;
+    top: 2150px;
     left: 7px;    
     min-width: 1400px !important;
     min-height: 310px !important;
