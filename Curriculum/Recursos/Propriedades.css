@@ -351,7 +351,30 @@
     position: absolute !important;
     background-size: 40px 25px !important;
     border-color:rgb(141, 138, 138);
-    top: 1150px;
+    top: 1320px;
+    left: 7px;    
+    min-width: 300px !important;
+    min-height: 200px !important;
+    
+    /*Borda*/
+    /*border: 1px;
+    border-style:dashed; */
+}
+
+#TContato{/*Titulo Perfil*/
+    position: relative;
+}
+
+#CContato{
+    position: absolute;
+}
+
+/*Projetos-----------------------------------------------------------------------------------------------------------------------*/
+#Projetos{    
+    position: absolute !important;
+    background-size: 40px 25px !important;
+    border-color:rgb(141, 138, 138);
+    top: 1550px;
     left: 7px;    
     min-width: 300px !important;
     min-height: 200px !important;
@@ -374,7 +397,7 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 1550px;
+    top: 1750px;
     left: 7px;    
     min-width: 1200px !important;
     min-height: 310px !important;
@@ -397,9 +420,9 @@
     position: absolute !important;
     background-size: 50px 35px !important;
     border-color:rgb(141, 138, 138);
-    top: 1900px;
+    top: 2050px;
     left: 7px;    
-    min-width: 1200px !important;
+    min-width: 1400px !important;
     min-height: 310px !important;
     
     /*Borda*/
