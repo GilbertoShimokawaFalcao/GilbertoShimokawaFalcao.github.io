@@ -374,11 +374,10 @@
     position: absolute !important;
     background-size: 150px 150px !important;
     border-color:rgb(141, 138, 138);
-    top: 1530px;
+    top: 1520px;
     left: 7px;    
     min-width: 300px !important;
-    min-height: 200px !important;
-    
+    min-height: 200px !important;    
     /*Borda*/
     /*border: 1px;
     border-style:dashed; */
