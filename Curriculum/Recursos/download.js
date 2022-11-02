@@ -1,5 +1,5 @@
 function generatePDF() {  
-  var printContents = document.getElementById('Pagina').innerHTML;
+  var printContents = document.getElementById('imprimir').innerHTML;
   var originalContents = document.body.innerHTML;
   document.body.innerHTML = printContents;
   document.title = 'GilbertoShimokawaFalcaoCurriculumAnalistaSistemas_' + formatDate();

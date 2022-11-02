@@ -1,0 +1,116 @@
+* {/*Remover bordas forçadas de todos os elementos neste css*/
+    margin: 0%;
+    padding: 0%;                
+}
+
+/*CORPO-----------------------------------------------------------------------------------------------------------------------*/
+#Corpo {
+    /*Posição*/
+    position: absolute;
+    top: 60%;
+    left: 1%;
+
+    /*Tamanhos*/
+    max-width: 98%;
+    min-width: 98%;
+    max-height: 120%;
+    min-height: 120%;
+
+    /*Borda de teste*/
+    /* background-color: green; */
+}
+
+/*ESPAÇO CONTEUDO ESQUERDO-------------------------------------------------------------------------------------------------------------*/
+.EspacoConteudoAmareloEsquerdo {    
+
+    /*Posição*/
+    position: relative;/*Relativo pois esta dentro do Copo*/
+    float: left;
+
+    /*Tamanhos*/
+    max-width: 49%;
+    min-width: 49%;
+    max-height: 100%;
+    min-height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+    /*Borda de teste*/
+    /* background-color: yellow; */
+}
+
+/*ESPAÇO CONTEUDO DIREITO-------------------------------------------------------------------------------------------------------------*/
+.EspacoConteudoAmareloDireito {    
+
+    /*Posição*/
+    position: relative;/*Relativo pois esta dentro do Copo*/
+    float:right;
+
+    /*Tamanhos*/
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 100%;
+    min-height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+    /*Borda de teste*/
+    /* background-color: yellow; */
+}
+
+/*ESPAÇO CONTEUDO INTEIRO-------------------------------------------------------------------------------------------------------------*/
+.EspacoConteudoAmareloInteiro {
+    /*Posição*/
+    position: relative;/*Relativo pois esta dentro do Copo*/
+
+    /*Tamanhos*/
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+
+    width: 100%;
+    height: 100%;
+    
+    /*Borda de teste*/
+    display: inline-block; 
+    
+    /* background-color: yellow; */
+}
+
+/*RETANGLE------------------------------------------------------------------------------------------------------------------------*/
+.Retangle{
+
+    /*Posição*/
+    position: absolute;
+
+    /*Tamanhos*/
+    max-width:  20%;
+    min-width:  20%;
+    max-height: 0.5%;
+    min-height: 0.5%;
+    
+    /*Atalho*/
+    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.png?raw=true);
+    background-repeat: no-repeat;
+}
+
+/*INCONES------------------------------------------------------------------------------------------------------------------------*/
+.icons{
+    position: relative;
+    background-size: 10% 10%;
+    width: 6%;
+    height: 6%;
+    display: inline-block;
+}
+
+/*ICONES EXPERIÊNCIA---------------------------------------------------------------------------------------------------------------*/
+
+.commonjob{
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: 0;
+}
