@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>        
-    <!-- <script type="text/javascript" src="Curriculum\Recursos\download.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="..\cssParts\Principal.css">
-    <link rel="stylesheet" type="text/css" href="..\cssParts\cabecalho.css">
-    <link rel="stylesheet" type="text/css" href="..\cssParts\corpo.css">
+    <script type="text/javascript" src="Recursos\download.js"></script>
+    <link rel="stylesheet" type="text/css" href="cssParts\Principal.css">
+    <link rel="stylesheet" type="text/css" href="cssParts\cabecalho.css">
+    <link rel="stylesheet" type="text/css" href="cssParts\corpo.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>    
 
-<div>    
+<div id="imprimir">
            <!--CONTEUDO ESQUERDO ##################################################################################################################-->
     <div class="Pagina"></div>           
         <div id="Conteudo">     
 
             <!--CABEÇALHO-------------------------------------------------------------------------------------------------------------->              
             <div id="Cabecalho">                
-
-                <!-- <div>
-                    <a href="https://gilbertoshimokawafalcao.github.io/">
-                        <img src="https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/return.png?raw=true"  id="return">                      
-                    </a>        
-                </div>                 -->
-
                 <div id="FundoCapa"></div>                
                 <div id="FotoPerfil"></div>                
                 <div id="nome"> GILBERTO SHIMOKAWA FALCÃO </div>                
                 <div id="titulo"> Analista & Desenvolvedor Full Stack</div>
-                <div id="dataUpdate"> UPDATE: 25/10/2022 </div>                
+                <div id="dataUpdate"> UPDATE: 02/11/2022 </div>                
                 <div id="objetivo">
                     <div id="TObjetivo" class="fontesTitulos">OBJETIVO:</div>                    
                     <div id="CObjetivo" class="fontesConteudo">Atuar como Analista e desenvolvedor de Sistemas Full Stack com ênfase em engenharia de dados.</div>                                                                                
-                </div>    
-                
-                <div class="Download" onclick='javascript:generatePDF()'>DOWNLOAD<br/>
-                    <img src="https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/arrow-arrow-down.gif?raw=true" height="70" width="90">
-                </div>
+                </div>                    
+                <div id="Download" onclick='javascript:generatePDF()'><br/></div>
 
+                <a href="https://gilbertoshimokawafalcao.github.io/">
+                    <img src="https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/voltar.png?raw=true" id="return">
+                </a>
             </div>
             
            <!--CORPO------------------------------------------------------------------------------------------------------------------>            
@@ -248,5 +241,6 @@
             </div>           
         </div>
     </div>
+</div>
 </body>
 </html>

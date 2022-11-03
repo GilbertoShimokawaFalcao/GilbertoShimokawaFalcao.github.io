@@ -1,9 +1,9 @@
 function generatePDF() {  
   var printContents = document.getElementById('imprimir').innerHTML;
   var originalContents = document.body.innerHTML;
-  document.body.innerHTML = printContents;
+  document.body.innerHTML = printContents;  
   document.title = 'GilbertoShimokawaFalcaoCurriculumAnalistaSistemas_' + formatDate();
-  window.print();  
+  window.print();    
   document.body.innerHTML = originalContents;
 }
 
@@ -12,9 +12,12 @@ function formatDate() {
       month = (d.getMonth() + 1),
       day = d.getDate(),
       year = d.getFullYear();
+    
+  let monthCon = '';
+  let dayCon = '';
 
-  if (month.length == 1) month = '0' + month;
-  if (day.length == 1) day = '0' + day;
+  if (month.length == 1) monthCon = '0' + month;
+  if (day.length == 1) dayCon = '0' + day;
 
-  return [year.toString() + month.toString() + day.toString()];
+  return [year.toString() + monthCon.toString() + dayCon.toString()];
 }
