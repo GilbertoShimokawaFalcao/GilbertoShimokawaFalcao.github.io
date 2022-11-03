@@ -11,10 +11,10 @@ function formatDate() {
   var d = new Date(),
       month = d.getMonth() + 1,
       day = d.getDate(),
-      year = d.getFullYear();  
+      year = d.getFullYear();
 
-  let monthString = month.length == 1 ? month.toString(): '0' + month.toString(); 
-  let dayString = day.length == 1 ? day.toString(): '0' + day.toString();
-
-  return [year.toString() + monthString.toString() + dayString.toString()].toString();
+      let monthString = month.toString().length == 1 ? monthString = '0' + month.toString() :  month.toString();    
+      let dayString = day.toString().length == 1 ? '0' + day.toString() : day.toString();
+  
+    return [year.toString() + monthString.toString() + dayString.toString()].toString();
 }
