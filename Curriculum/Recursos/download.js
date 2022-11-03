@@ -3,6 +3,7 @@ function generatePDF() {
   var originalContents = document.body.innerHTML;
   document.body.innerHTML = printContents;  
   document.title = 'GilbertoShimokawaFalcaoCurriculumAnalistaSistemas_' + formatDate();  
+  alert(document.title);
   window.print();      
   document.body.innerHTML = originalContents;
 }
@@ -16,5 +17,5 @@ function formatDate() {
   let monthString = month.length == 1 ? month.toString(): '0' + month.toString(); 
   let dayString = day.length == 1 ? day.toString(): '0' + day.toString();
 
-  return [year.toString() + monthString + dayString];
+  return [year.toString() + monthString.toString() + dayString.toString()].toString();
 }
