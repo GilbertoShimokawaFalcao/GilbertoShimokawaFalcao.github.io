@@ -215,7 +215,7 @@
     min-height: 20%;
     
     /*Atalho*/
-    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Recursos/Icons/downloadButton.png?raw=true);
+    background-image:url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/downloadButton.png?raw=true);
     background-repeat: no-repeat;
 
     /*Teste de borda - Tamanho de modall*/
@@ -232,17 +232,16 @@
     background-size: 100% 100%;
 
     /*Deslocamento imagem*/
-    top: 75%;
+    top: 71%;
     left: 80%;
 
     /*Dimensões do espaço da imagem*/
     max-width:  8%;
     min-width:  8%;
-    max-height: 30%;
-    min-height: 30%;
+    max-height: 25%;
+    min-height: 25%;
     
-    /*Atalho*/
-    
+    /*Atalho*/    
     background-repeat: no-repeat;
 
     /*Teste de borda - Tamanho de modall*/
