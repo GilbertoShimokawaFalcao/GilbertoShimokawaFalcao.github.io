@@ -1,0 +1,168 @@
+* {/*Remover bordas forçadas de todos os elementos neste css*/
+    margin: 0%;
+    padding: 0%;       
+}
+
+/*CABECALHO  ----------------------------------------------------------------------------------------------------------------------*/
+#Cabecalho{
+    position: absolute;
+
+    /*Tamanhos*/
+    max-width: 100%;    
+    min-width: 100%;    
+    max-height: 64%;
+    min-height: 64%;
+
+    /*Borda de teste*/
+    /* background-color: aqua; */
+}
+
+/*FUNDO CAPA ----------------------------------------------------------------------------------------------------------------------*/
+#FundoCapa {
+
+    /*Posição*/
+    position: absolute;
+
+    /*Tamanhos*/
+    max-width:  100%;
+    min-width:  100%;
+    max-height: 60%;
+    min-height: 60%;
+
+    /*Atalho*/
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.png?raw=true);
+    background-repeat: no-repeat;
+    
+    /*Renderização de imagem*/
+    filter: contrast(1.2);
+    image-rendering:pixelated;
+    background-size: 100% 100%;
+    
+}
+
+/*FOTO PERFIL ----------------------------------------------------------------------------------------------------------------------*/
+#FotoPerfil {
+
+    /*Posição*/
+    position: absolute;   
+
+    /*Dados imagem*/
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/perfil.jpg?raw=true);
+    background-repeat: no-repeat;
+    
+    /*Dimensoes esfera*/ /*Imagens sao dimensionadas dinamicamente com porcentagem*/
+    max-width: 17%;
+    min-width: 17%;
+    max-height:72%;  
+    min-height:72%;    
+
+    /*Posição esfera*/
+    top:  15%;
+    left: 2.5%;
+
+    /*Estilo Esfera*/
+    border-radius: 60%;
+    border-color:steelblue;
+    border-style:groove;
+
+    /*Dimensões da foto*/
+    background-position-y: 42%; /*Posição Y*/
+    background-position-x: 100%;/*Posição X*/
+    background-size: 105% 170%; /*Cumprimento da imagem X , Y */    
+}
+
+/*NOME PERFIL -----------------------------------------------------------------------------------------------------------------------*/
+#nome{    
+    /*Comportamento*/
+    position: absolute;
+
+    /*Caracteristicas*/
+    color: aliceblue;
+    font-family:'Tahoma';
+
+    /*Caracteristicas fonte*/
+    font-size: 4vw; /*Tamanho da fonte usar vw ou vw para grossura dinamica*/
+    font-weight:1000;/*Encorpa a letra*/
+
+    /*Modal*/ /*Se tamanho exagerado pode ser que crie janela em volta da fonte. - Serve pra injeçar tamanho*/
+    max-width: 70vw;
+    min-width: 70vw;
+    max-height: 80vh;
+    min-height: 80vh;
+
+    /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
+    top: 5%;
+    left: 24.5%;
+}
+
+/*TITULO --------------------------------------------------------------------------------------------------------------------------*/
+#titulo{
+    
+    /*Comportamento*/
+    position: absolute;
+
+    /*Caracteristicas*/
+    color: aliceblue;
+    font-family:'Tahoma';
+
+    /*Caracteristicas fonte*/
+    font-size: 2vw;
+    font-weight: 1000;
+
+    /*Modal*/ /*Se tamanho exagerado pode ser que crie janela em volta da fonte.*/
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 20vh;
+    min-height: 20vh;
+    
+    /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
+    top: 23%;
+    left: 40%;
+}
+
+/*DATA UPDATE --------------------------------------------------------------------------------------------------------------------*/
+#dataUpdate{
+
+    /*Comportamento*/
+    position: absolute;
+
+    /*Caracteristicas*/
+    color: aliceblue;
+    font-family:'Tahoma';
+
+    /*Caracteristicas fonte*/
+    font-size: 1vw;
+    font-weight: 1000;
+
+    /*Modal*/ /*Se tamanho exagerado pode ser que crie janela em volta da fonte.*/
+    max-width: 11vw;
+    min-width: 11vw;
+    max-height: 10vh;
+    min-height: 10vh;
+    
+    /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
+    top: 52%;
+    left: 88%;
+}
+
+/*TITULO ------------------------------------------------------------------------------------------------------------------------*/
+#TObjetivo {    
+
+    /*Posição*/
+    position: absolute;
+
+    /*Deslocamento imagem*/
+    top: 62%;
+    left: 20.5%;    
+} 
+
+/*CONTEUDO ----------------------------------------------------------------------------------------------------------------------*/
+#CObjetivo{   
+
+    /*Posição*/
+    position: absolute; 
+
+    /*Deslocamento imagem*/
+    top:64.5%;
+    left: 38%;    
+}
