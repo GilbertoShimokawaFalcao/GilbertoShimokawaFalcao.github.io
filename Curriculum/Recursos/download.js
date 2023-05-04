@@ -6,7 +6,7 @@ function generatePDF() {
   document.body.innerHTML = printContents;       
   document.title = local;
   window.print();
-  document.body.innerHTML = originalContents;      
+  document.body.innerHTML = originalContents;
 }
 
 function formatDate() {    
