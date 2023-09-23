@@ -30,7 +30,8 @@
     min-height: 60%;
 
     /*Atalho*/
-    /*background-image: url(../../../../Linkedin/Capas/MestrePalitoNews.png);*/
+    /*LOCAL TESTE*/
+    /* background-image: url(../Recursos/Imagens/fundo.jpg); */
     background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.png?raw=true);
     background-repeat: no-repeat;
     
@@ -48,6 +49,8 @@
     position: absolute;   
 
     /*Dados imagem*/
+    /*LOCAL TESTE*/
+    /* background-image: url(../Recursos/Imagens/perfil.jpg); */
     background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/perfil.jpg?raw=true);
     background-repeat: no-repeat;
     
@@ -67,9 +70,9 @@
     border-style:groove;
 
     /*Dimensões da foto*/
-    background-position-y: 42%; /*Posição Y*/
+    background-position-y: 100%; /*Posição Y*/
     background-position-x: 100%;/*Posição X*/
-    background-size: 105% 170%; /*Cumprimento da imagem X , Y */    
+    background-size: 100% 100%; /*Cumprimento da imagem X , Y */
 }
 
 /*NOME PERFIL -----------------------------------------------------------------------------------------------------------------------*/
