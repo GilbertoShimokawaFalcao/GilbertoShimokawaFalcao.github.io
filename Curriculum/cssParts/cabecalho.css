@@ -32,7 +32,7 @@
     /*Atalho*/
     /*LOCAL TESTE*/
     /* background-image: url(../Recursos/Imagens/fundo.jpg); */
-    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.png?raw=true);
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Imagens/fundo.jpg?raw=true);
     background-repeat: no-repeat;
     
     /*Renderização de imagem*/
@@ -70,7 +70,7 @@
     border-style:groove;
 
     /*Dimensões da foto*/
-    background-position-y: 100%; /*Posição Y*/
+    background-position-y: 42%; /*Posição Y*/
     background-position-x: 100%;/*Posição X*/
     background-size: 100% 100%; /*Cumprimento da imagem X , Y */
 }
