@@ -1,12 +1,21 @@
-function generatePDF() {  
+function generatePDF() {    
   let local = 'GilbertoShimokawaFalcaoCurriculumAnalistaSistemas_' + formatDate();
   alert('Para melhor experiência, Salve o arquivo com:\nLayout: Colorido\nMargens: Nenhuma\nGraficos de segundo plano ativado \nSugestão de nome documento: ' + local);
+  
+  //Ocultar botões.
+  document.getElementById('Download').style.display = "none";
+  document.getElementById('return').style.display = "none";
+
   var printContents = document.getElementById('imprimir').innerHTML;
   var originalContents = document.body.innerHTML;
   document.body.innerHTML = printContents;       
   document.title = local;
   window.print();
   document.body.innerHTML = originalContents;
+
+  //Exibir botões.
+  document.getElementById('Download').style.display = "block";
+  document.getElementById('return').style.display = "block";
 }
 
 function formatDate() {    
