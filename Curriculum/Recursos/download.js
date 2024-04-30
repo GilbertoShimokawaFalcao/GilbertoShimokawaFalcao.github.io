@@ -1,6 +1,5 @@
 function generatePDF() {    
   let local = 'GilbertoShimokawaFalcaoCurriculumAnalistaSistemas_' + formatDate();
-  alert('Para melhor experiência, Salve o arquivo com:\nLayout: Colorido\nMargens: Nenhuma\nGraficos de segundo plano ativado \nSugestão de nome documento: ' + local);
   
   //Ocultar botões.
   document.getElementById('Download').style.display = "none";
