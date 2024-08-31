@@ -145,8 +145,33 @@
     min-height: 10vh;
     
     /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
-    top: 52%;
+    top: 54%;
     left: 88%;
+}
+
+/*Sontato --------------------------------------------------------------------------------------------------------------------*/
+#contato{
+
+    /*Comportamento*/
+    position: absolute;
+
+    /*Caracteristicas*/
+    color: aliceblue;
+    font-family:'Tahoma';
+
+    /*Caracteristicas fonte*/
+    font-size: 1vw;
+    font-weight: 800;
+
+    /*Modal*/ /*Se tamanho exagerado pode ser que crie janela em volta da fonte.*/
+    max-width: 7vw;
+    min-width: 7vw;
+    max-height: 6vh;
+    min-height: 6vh;
+    
+    /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
+    top: 54%;
+    left: 20%;
 }
 
 /*TITULO ------------------------------------------------------------------------------------------------------------------------*/
