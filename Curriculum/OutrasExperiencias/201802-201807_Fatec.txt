@@ -1,0 +1,5 @@
+02/2018 a 07/2018
+FATEC IPIRANGA – Faculdade de tecnologia do estado de São Paulo Unidade Ipiranga.
+Cargo: Estágio
+Atuação: Estágio com desenvolvimento full stack da nova página da FATEC Ipiranga. Foi desenvolvido motor de criação de regras de negócio da plataforma, para o servidor da FATEC poder imputar e gerenciar notícias na mesma, em formato de histórico (BLOG).
+Linguagens e Ferramentas utilizadas: MySQL, HTML, HTML5, JavaScript, PHP, CSS, Wamp Server, Brackets, FTP Core, C#.
