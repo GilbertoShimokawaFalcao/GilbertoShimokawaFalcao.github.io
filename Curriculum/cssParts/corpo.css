@@ -1,0 +1,177 @@
+* {/*Remover bordas forçadas de todos os elementos neste css*/
+    margin: 0%;
+    padding: 0%;                
+}
+
+/*CORPO-----------------------------------------------------------------------------------------------------------------------*/
+#CorpoPaginaPrincipal {
+    /* Posição */
+    position: absolute;
+    top: 60%;
+    left: 1%;
+
+    /* Definir dimensões fixas */
+    width: 98%; /* Mantém 98% da largura para caber na página */
+    height: 24.7cm; /* Altura fixa para tamanho de uma página A4 */
+    max-height: 24.7cm; /* Limita a altura ao tamanho de A4 */
+    
+    /* TESTES */
+    /* border: 2px solid black;
+    min-height: 100%;
+    background-color: green; */
+}
+
+/*ESPAÇO CONTEUDO ESQUERDO-------------------------------------------------------------------------------------------------------------*/
+.EspacoConteudoAmareloEsquerdo {    
+
+    /*Posição*/
+    position: relative;/*Relativo pois esta dentro do Copo*/
+    float: left;
+
+    /*Tamanhos*/
+    max-width: 49%;
+    min-width: 49%;
+    max-height: 100%;
+    min-height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+    /*Borda de teste*/
+    /* background-color: yellow; */
+}
+
+/*ESPAÇO CONTEUDO DIREITO-------------------------------------------------------------------------------------------------------------*/
+.EspacoConteudoAmareloDireito {    
+
+    /*Posição*/
+    position: relative;/*Relativo pois esta dentro do Copo*/
+    float:right;
+
+    /*Tamanhos*/
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 100%;
+    min-height: 100%;
+
+    width: 100%;
+    height: 100%;
+
+    /*Borda de teste*/
+    /* background-color: yellow; */
+}
+
+/*ICONES EXPERIÊNCIA---------------------------------------------------------------------------------------------------------------*/
+#job1 {
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+
+    /*Teste*/
+    /* background-color: green; */
+}
+
+#job1IMG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25%;
+    left: 0%;
+
+    /* Atalho */    
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/Bradesco.png?raw=true);
+    /*LOCAL TESTE*/
+    /* background-image: url('../Recursos/Icons/Bradesco.png'); */
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    z-index: -1;
+    filter: contrast(1.2);
+    image-rendering: pixelated;
+}
+
+#job2 {
+    position: relative;    
+    display: inline-block;
+    z-index: 0;
+    
+    /*Teste*/
+    /* background-color: green; */
+}
+
+#job2IMG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    
+    /* Atalho */    
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/Wipro.png?raw=true);
+    /*LOCAL TESTE*/
+    /* background-image: url('../Recursos/Icons/Wipro.png'); */
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    z-index: -1; /* Ajustado para estar abaixo do conteúdo mas acima do fundo */
+    filter: contrast(1.2);
+    image-rendering: pixelated;
+}
+
+#job3 {
+    position: relative;    
+    display: inline-block;
+    z-index: 0;
+
+    /*Teste*/
+    /* background-color: green; */
+}
+
+#job3IMG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15%;
+    left: 0%;
+
+    background-image: url(https://github.com/GilbertoShimokawaFalcao/GilbertoShimokawaFalcao.github.io/blob/main/Curriculum/Recursos/Icons/brq.png?raw=true);
+    /*LOCAL TESTE*/
+    /* background-image: url('../Recursos/Icons/brq.png'); */
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    z-index: -1; /* Ajustado para estar abaixo do conteúdo mas acima do fundo */
+    filter: contrast(1.2);
+    image-rendering: pixelated;
+}
+
+/*INCONES OPORTUNIDADES ANTERIORES----------------------------------------------------------------------------------------------------*/
+.iconsExp{
+    /* position: relative;
+    
+    width: 60%;
+    height: 60%;
+    
+    /*vertical-align: middle; /* Alinha verticalmente as imagens */
+    
+    background-size: 100% 100%;
+    position: relative;
+    width: 8vw; /* Ajuste a largura proporcional à largura da viewport */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block;
+    vertical-align: middle; /* Alinha verticalmente as imagens */
+}
+
+#propostas {
+    background-size: 100% 100%;
+    position: relative;    
+    width: 2vw; /* Ajuste a largura proporcional à largura da viewport */
+    height: 2vw; /* Definir uma altura fixa ou proporcional */
+    display: inline-block;
+    vertical-align: middle; /* Alinha verticalmente as imagens */
+    background-repeat: no-repeat;
+    background-size: contain; /* Mantém a proporção da imagem */
+}
