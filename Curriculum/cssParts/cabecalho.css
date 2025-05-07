@@ -182,6 +182,30 @@ a[href^="mailto:"] {
     text-decoration: none;
 }    
 
+/*CELPHONE------------------------------------------------------------------------------------------------------------------------*/
+#celphone {
+     /*Comportamento*/
+     position: absolute;
+
+     /*Caracteristicas*/
+     font-family:'Tahoma';
+     color: aliceblue;
+
+     /*Caracteristicas fonte*/
+     font-size: 0.8vw;
+     font-weight: 800;
+ 
+     /*Modal*/ /*Se tamanho exagerado pode ser que crie janela em volta da fonte.*/
+     max-width: 10vw;
+     min-width: 10vw;
+     max-height: 10vh;
+     min-height: 10vh;
+     
+     /*Posição*/ /*Letras são redimensinadas dinamicamente com uso de porcentagens*/
+     top: 54%;
+     left: 90%;
+}
+
 /*INCONES------------------------------------------------------------------------------------------------------------------------*/
 #linkedin {
     /* Comportamento */
