@@ -159,17 +159,17 @@
     position: absolute;
 
     /*Tamanho da imagem*/
-    background-size: 100% 100%;
+    background-size: 30% 100%;
 
     /*Deslocamento imagem*/
-    top: 70%;
-    left: 40%;
+    top: 100%;
+    left: 70%;
 
     /*Dimensões do espaço da imagem*/
-    max-width:  15%;
-    min-width:  25%;
-    max-height: 20%;
-    min-height: 30%;
+    max-width:  100%;
+    min-width:  90%;
+    max-height: 100%;
+    min-height: 90%;
     
     /*Atalho*/
     background-image: url("https://gilbertoshimokawafalcao.github.io/Card/Recursos/Icons/securitocat.png");
@@ -228,7 +228,7 @@ a[href^="mailto:"] {
     
     /*Posição*/
     top: 80%;
-    left: 32%;
+    left: 31.5%;
 }
 
 /*CelTitle --------------------------------------------------------------------------------------------------------------------------*/
@@ -242,8 +242,8 @@ a[href^="mailto:"] {
     width: max-content; /* <- Deixa a largura se ajustar ao conteúdo */
     white-space: nowrap; /* <- Impede quebra de linha */
     
-    top: 95%;
-    left: 50%;
+    top: 98%;
+    left: 55%;
 }
 
 /*INCONES------------------------------------------------------------------------------------------------------------------------*/
