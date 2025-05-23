@@ -152,6 +152,33 @@
     background-repeat: no-repeat;
 }
 
+/*OCTACAT------------------------------------------------------------------------------------------------------------------------*/
+#octaCat{
+
+    /*Posição*/
+    position: absolute;
+
+    /*Tamanho da imagem*/
+    background-size: 100% 100%;
+
+    /*Deslocamento imagem*/
+    top: 70%;
+    left: 40%;
+
+    /*Dimensões do espaço da imagem*/
+    max-width:  15%;
+    min-width:  25%;
+    max-height: 20%;
+    min-height: 30%;
+    
+    /*Atalho*/
+    background-image: url("https://gilbertoshimokawafalcao.github.io/Card/Recursos/Icons/securitocat.png");
+    
+    /*Local*/
+    /*background-image: url(../Recursos/Icons/downloadButton.png);*/
+    background-repeat: no-repeat;
+}
+
 /*Email--------------------------------------------------------------------------------------------------------------------------*/
 #email {
     /*Comportamento*/
