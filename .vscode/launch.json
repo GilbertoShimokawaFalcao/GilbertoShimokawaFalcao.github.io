@@ -1,0 +1,12 @@
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Abrir Curriculum HTML direto",
+        "file": "${workspaceFolder}/Index.html"
+      }
+    ]
+  }  
