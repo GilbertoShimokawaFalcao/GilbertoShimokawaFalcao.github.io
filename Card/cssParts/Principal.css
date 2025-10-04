@@ -1,0 +1,35 @@
+* {/*Remover bordas forçadas de todos os elementos neste css*/
+    margin: 0%;
+    padding: 0%;                
+}
+
+/*PAGINA----------------------------------------------------------------------------------------------------------------------------------------------*/
+.Pagina{
+    /*Posição*/
+    position: absolute;
+
+    /*Delimitação do papel*/
+    min-width: 100%;
+    max-width: 100%;    
+    min-height: 100%;
+    max-height: 100%;
+}
+
+/*CONTEUDO --------------------------------------------------------------------------------------------------------------------------*/
+#Conteudo {
+    /*Comportamento*/
+    position: absolute;
+
+    /*Posição*/
+    top: 0%;
+    left: 0%;
+
+    /*Tamanhos*/
+    max-width: 100%;    
+    min-width: 100%;    
+    max-height: 0.18%;
+    min-height: 0.18%;
+    
+    /*Dinamica*//*Redimensiona sub itens internos do cabeçalho pra ficar da mesma proporção.*/
+    padding-bottom: calc((1.5/ 4) * 100%);   
+} 
