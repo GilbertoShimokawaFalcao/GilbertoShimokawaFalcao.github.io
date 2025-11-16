@@ -1,0 +1,13 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Abrir Curriculum HTML direto",
+      "file": "${workspaceFolder}/Curriculum/Curriculum.html",
+      "runtimeExecutable": "C:\\Users\\Bastille\\AppData\\Local\\Programs\\Opera GX\\opera.exe"
+    }
+  ]
+}
