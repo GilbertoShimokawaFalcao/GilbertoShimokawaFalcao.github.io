@@ -1,0 +1,17 @@
+# VSCode
+.vscode/
+
+# Node (caso use algo depois)
+node_modules/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build / temp
+dist/
+build/
+.tmp/
